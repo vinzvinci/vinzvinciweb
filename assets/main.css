@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.recent-projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.project-box {
+    width: 360px;
+    height: 320px;
+    padding: 24px;
+    margin-top: 10px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end; 
+    transition: .6s ease-out;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+.project-box:hover {
+    transform: scale(1);
+}
+
+.project-box:hover:before {
+    opacity: 1;
+}
+
+.project-box:hover .project-text {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to-top, #000, transparent);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.project-box img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    object-fit: cover;
+}
+
+.project-box .project-text {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(60px);
+    transition: 0.5s;
+}
+
+.project-text a {
+    border: 1px solid #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        color: rgb(26, 250, 6);
+    }
+    .carousel-caption btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .display-4 {
+        font-size: 200%;
+    }
+
+}
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+    }
+    .carousel-caption h1 {
+        font-size: 110%;
+    }
+    .carousel-caption h3 {
+        font-size: 90%;
+        padding: 4px 8px;
+        color: rgb(26, 250, 6);
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .display-4 {
+        font-size: 160%;
+    }
+    .social a {
+        font-size: 2em;
+        padding: .7rem;
+    }
+}
+
+.navbar {
+    padding: 8px;
+    background-color: #000;
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+nav ul li a{
+	color: #fff !important;
+}
+nav ul li a:hover {
+    color: aqua !important;
+}
+.navbar-toggler {
+    background-color: #f7e9e9;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+}
+.carousel-caption h1 {
+    font-size: 50px;
+    text-shadow: 1px 1px 15px #000;
+    position: relative;
+    bottom: 30px;
+}
+.carousel-caption h3 {
+    font-size: 25px;
+    color: rgb(26, 250, 6);
+    text-shadow: 1px 1px 10px #000;
+    position: relative;
+    bottom: 32px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+}
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+.mini-me {
+    border-radius: 50%;
+    border: 2px solid #20b2aa;
+}
+
+.fb, .ig, .linkedin, .github {
+    position: relative;
+    bottom: 30px;
+    max-width: 100%;
+    height: 28px;
+}
+
+.fb:hover, .ig:hover, .linkedin:hover, .github:hover {
+    transform: scale(1.8);
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    animation-name: colors;   
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-color: #2975b5;
+    }
+    50% {
+        background-color: #161616;
+    }
+    100% {
+        background-color: #8a1e8a;
+    }
+}
+
+.btn-1 {
+    position: relative;
+    bottom: 30px;
+}
+.card-imd-top {
+    width: 417px;
+    height: 250px;
+}
+
+.tech-skills {
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    background-color: #181818;
+    opacity: 0.6;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.html5, .css3, .bootstrap, .sass, .react, .redux, .js, .java {
+    height: 60px;
+    margin: 10px 10px 10px 10px;
+}
+
+.html5:hover, .css3:hover, .bootstrap:hover, .sass:hover, .react:hover, .redux:hover, .js:hover, .java:hover {
+    transform: scale(1.8);
+    display: block;
+}
+.title-design {
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+    opacity: 0.6;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #161616;
+    color: #fff;
+}
+
+.display-4 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.use-lang {
+    font-size: 15px;
+}
+
+.fa-code {
+    color: #e54d26;
+    font-size: 45px;
+    margin-bottom: 4px;
+}
+.fa-css3 {
+    color: #2163af;
+    font-size: 45px;
+    margin-bottom: 4px;
+}
+.fa-bold {
+    color: #563d7c;
+    font-size: 45px;
+    margin-bottom: 4px;
+}
+.html1 {
+    color: #e54d26;
+    font-size: 22px;
+}
+.css1 {
+    color: #2163af;
+    font-size: 22px;
+}
+.bts1 {
+    color: #563d7c;
+    font-size: 22px;
+}
+
+.con-color {
+    color: hsl(113, 97%, 46%);
+    margin-top: 20px;
+}
+.me-logo {
+    width: 40%;
+    margin-top: 20px;
+}
+.light {
+    background-color: #fff;
+}
+.social-padding {
+    margin-top: 30px;
+}
+.fb2, .ig2, .linkedin2, .github2 {
+    max-width: 100%;
+    height: 45px;
+}
+h6 {
+    color: #8d6d1a;
+}
