@@ -1,16 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-html, body {
-    height: 100%;
-    width: 100%;
     font-family: 'Poppins', sans-serif;
+    
     scroll-behavior: smooth;
 }
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -18,7 +15,7 @@ html, body {
 }
 @media (max-width: 768px) {
     .carousel-caption {
-        top: 45%;
+        top: 100%;
     }
     .carousel-caption h1 {
         font-size: 350%;
@@ -28,12 +25,12 @@ html, body {
         font-weight: 400;
         color: rgb(26, 250, 6);
     }
+    .btn-lg {
+        font-size: 100%;
+    }
     .carousel-caption btn {
         font-size: 95%;
         padding: 8px 14px;
-    }
-    .display-4 {
-        font-size: 200%;
     }
 
 }
@@ -52,8 +49,8 @@ html, body {
     .carousel-indicators {
         display: none;
     }
-    .display-4 {
-        font-size: 160%;
+    .btn-lg {
+        font-size: 100%;
     }
     .social a {
         font-size: 2em;
@@ -76,9 +73,6 @@ nav ul li a{
 }
 nav ul li a:hover {
     color: aqua !important;
-}
-.navbar-toggler {
-    background-color: #f7e9e9;
 }
 .carousel-caption {
     position: absolute;
@@ -152,9 +146,126 @@ nav ul li a:hover {
     position: relative;
     bottom: 30px;
 }
-.card-imd-top {
-    width: 417px;
-    height: 250px;
+
+#team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #010615;
+}
+
+.box-profile {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    transition: 0.5s;
+    background-color: #060c21;
+}
+
+.box-profile:hover {
+    height: 400px;
+}
+
+.box-profile .imgProfile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box-profile .imgProfile img {
+    max-width: 100%;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.box-profile:hover .imgProfile img {
+    opacity: 1;
+}
+
+.box-profile:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.box-profile:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+
+/*
+.box-profile:before, .box-profile:after {
+    background: linear-gradient(235deg, #791fe0, #010615, #00bcd4);
+}
+
+.box-profile:nth-child(2):before, .box-profile:nth-child(2)::after {
+    background: linear-gradient(235deg, #dd230f, #010615, #00bcd4);
+}
+
+.box-profile:nth-child(3):before, .box-profile:nth-child(3)::after {
+    background: linear-gradient(235deg, #772aff, 010615, #2196f3);
+}
+*/
+
+.box-profile .content {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 90px;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box-profile:hover .content {
+    opacity: 1;
+}
+
+.box-profile .content h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.box-profile .content h2 span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.btn-outline-secondary {
+    line-height: 10px;
+    margin-top: 10px;
 }
 
 .tech-skills {
@@ -184,10 +295,10 @@ nav ul li a:hover {
 .title-design {
     display: flex;
     justify-content: center;
-    background-color: #181818;
-    opacity: 0.6;
+    background-color: #161616;
     font-size: 28px;
-    color: rgb(255, 255, 255);
+    color: #fff;
+    margin-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

@@ -3,18 +3,20 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Vincent Villafuerte</title>
+    <title>Vincent Villafuerte</title>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link href="assets/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
     <link rel="icon" type="image/png" href="img/icon.png" sizes="32x32" />
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-light sticky-top" id="home">
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top" id="home">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="logo" src="img/logo_mini-me.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -23,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#team">Team</a>
@@ -63,10 +65,10 @@
         <div class="container-fluid padding">
         <div class="row text-center padding">
             <div class="col-12 social-padding">
+                <a href="https://github.com/vinzvinci98"><img class="github" src="https://img.icons8.com/material-sharp/24/000000/github.png" alt="Github"></a> 
                 <a href="https://web.facebook.com/Vintus.Pro1/"><img class="fb" src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="facebook"></a>        
                 <a href="https://www.instagram.com/vinz_vinci/"><img class="ig" src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="instagram"></a>
                 <a href="https://www.linkedin.com/in/vincent-villafuerte-5892891b5/"><img class="linkedin" src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="linkedin"></a>
-                <a href="https://github.com/vinzvinci98"><img class="github" src="https://img.icons8.com/material-sharp/24/000000/github.png" alt="Github"></a> 
             </div>
         </div>
         </div>
@@ -80,74 +82,65 @@
     </header><br>
 
     <section id="team">
-    <div class="container-fluid padding">
-    <div class="row welcome text-center">
-        <div class="col-12">
-            <h2 class="title-design">My Team</h2>
+        <div class="col-12 title-design">
+            <h2>My Team</h2>
+       </div>
+    
+    <div class="box-profile">
+        <div class="imgProfile">
+            <img src="img/testimonials/christian.jpg">
         </div>
-        <hr>
-    </div>
-    </div>
-
-    <div class="container-fluid padding">
-    <div class="row padding">
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card-imd-top" src="img/testimonials/christian.jpg">
-                <div class="card-body">
-                    <h4 class="card-title">Christian Igbaras</h4>
-                    <p class="card-text">Christian is an expertise in Java, and he is the best team mate I've ever meet</p>
-                    <a class="btn btn-outline-secondary" href="https://web.facebook.com/christian.igbaras">See Profile</a>
-                </div>
-            </div>
+        <div class="content">
+            <h2>Christian Igbaras<br><span>Java Developer</span><br>
+            <a class="btn btn-outline-secondary" href="https://github.com/Tiansing">Visit Profile</a></h2>
         </div>
-
-    <div class="col-md-4">
-        <div class="card">
-            <img class="card-imd-top" src="img/testimonials/ezekiel.jpg">
-            <div class="card-body">
-                <h4 class="card-title">Ezekiel Lavapiez</h4>
-                <p class="card-text">Ezekiel is our graphic designer and also he had expertise in Java</p>
-                <a class="btn btn-outline-secondary" href="https://web.facebook.com/ezekiel.lavapiez">See Profile</a>
-            </div>
-        </div>
+        <p class="btn btn-outline-secondary">View Profile</p>
     </div>
-
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card-imd-top" src="img/testimonials/austine.jpg">
-                <div class="card-body">
-                        <h4 class="card-title">Austine Sayson</h4>
-                        <p class="card-text">Austine is an expert on data structures and algorithm in Java</p>
-                        <a class="btn btn-outline-secondary" href="https://web.facebook.com/OneesaysonXD/">See Profile</a>
-                </div>
-            </div>
+    <div class="box-profile">
+        <div class="imgProfile">
+            <img src="img/testimonials/ezekiel.jpg">
         </div>
-    </div>  
+        <div class="content">
+            <h2>Ezekiel Lavapiez<br><span>Graphic Designer</span><br>
+            <a class="btn btn-outline-secondary" href="https://github.com/Tiansing">Visit Profile</a></h2>
+        </div>
+        <p class="btn btn-outline-secondary">View Profile</p>
     </div>
-    </section>
+    <div class="box-profile">
+        <div class="imgProfile">
+            <img src="img/testimonials/austine.jpg">
+        </div>
+        <div class="content">
+            <h2>One Austine Sayson<br><span>Java Developer</span><br>
+            <a class="btn btn-outline-secondary" href="https://github.com/Tiansing">Visit Profile</a></h2>
+            
+        </div>
+        <p class="btn btn-outline-secondary">View Profile</p>
+    </div>
+    </section><br>
 
     <section id="projects">
         <h2 class="title-design">Recent Projects</h2>
     <div class="recent-projects">
+
         <div class="project-box">
-            <img src="img/Projects/sharkquiz.png" alt="">
+            <img src="img/Projects/weresponse.png" alt="WeResponse website">
+            <div class="project-text">
+                <a class="source-github" href="https://weresponse.github.io/">Demo Mode</a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="img/Projects/sharkquiz.png" alt="Shark Quiz">
             <div class="project-text">
                 <a class="source-github" href="https://github.com/vinzvinci98/Shark-Quiz">Source Code</a>
             </div>
         </div>
 
         <div class="project-box">
-            <img src="img/background.jpg" alt="">
+            <img src="img/Projects/starcoffee.png" alt="Payroll System">
             <div class="project-text">
-                <h2>Coming Soon</h2>
-            </div>
-        </div>
-
-        <div class="project-box">
-            <img src="img/background.jpg" alt="">
-            <div class="project-text">
-                <h2>Coming Soon</h2>
+                <a class="source-github" href="https://github.com/vinzvinci98/Payroll-System-with-Login-form-Java-GUI">Source Code</a>
             </div>
         </div>
     </div>
