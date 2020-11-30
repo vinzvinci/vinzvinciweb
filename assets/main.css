@@ -4,12 +4,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
     scroll-behavior: smooth;
 }
 
+html, body {
+    background: linear-gradient(#e7e7e8 5%,#000000);
+}
 
 /*---Media Queries --*/
+@media (max-width: 1200px) {
+
+}
 @media (max-width: 992px) {
 
 }
@@ -51,6 +56,29 @@
     }
     .btn-lg {
         font-size: 100%;
+    }
+    .social a {
+        font-size: 2em;
+        padding: .7rem;
+    }
+}
+@media (max-width: 480px) {
+    .carousel-caption {
+        top: 40%;
+    }
+    .carousel-caption h1 {
+        font-size: 90%;
+    }
+    .carousel-caption h3 {
+        font-size: 70%;
+        padding: 4px 8px;
+        color: rgb(26, 250, 6);
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .btn-lg {
+        font-size: 70%;
     }
     .social a {
         font-size: 2em;
@@ -132,13 +160,13 @@ nav ul li a:hover {
 
 @keyframes colors {
     0% {
-        background-color: #2975b5;
+        background-color: #ff0000;
     }
     50% {
-        background-color: #161616;
+        background-color: #008000;
     }
     100% {
-        background-color: #8a1e8a;
+        background-color: #0000ff;
     }
 }
 
@@ -152,7 +180,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #010615;
+    background: linear-gradient(#6a6c72, #000000);
 }
 
 .box-profile {
@@ -302,6 +330,9 @@ nav ul li a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.lead {
+    color: #fff;
+}
 
 .recent-projects {
     display: flex;
