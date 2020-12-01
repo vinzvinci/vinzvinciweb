@@ -542,7 +542,7 @@ fieldset {
 #contact textarea {
 	height:100px;
 	max-width:100%;
-  resize:none;
+    resize:none;
 }
 
 #contact button[type="submit"] {
@@ -588,6 +588,7 @@ fieldset {
     background-color: #000;
     color: #fff;
     padding: 5px;
+    cursor: pointer;
 }
 .exit:hover {
     background-color: #ff0000;
