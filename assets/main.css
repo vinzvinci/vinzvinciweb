@@ -143,11 +143,13 @@ nav ul li a:hover {
     bottom: 30px;
     max-width: 100%;
     height: 28px;
-    background-color: #fff;
-    border-radius: 50%;
     display: inline-block;
 }
 
+.github {
+    background-color: #fff;
+    border-radius: 50%;
+}
 .fb:hover, .ig:hover, .linkedin:hover, .github:hover {
     transform: scale(1.8);
 }
@@ -482,8 +484,9 @@ footer {
 }
 .fb2, .ig2, .linkedin2, .github2 {
     max-width: 100%;
-    height: 45px;
+    height: 40px;
 }
+
 .github2 {
     background-color: #fff;
     border-radius: 50%;
