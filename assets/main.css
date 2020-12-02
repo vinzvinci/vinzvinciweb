@@ -138,6 +138,7 @@ nav ul li a:hover {
 }
 
 .fb, .ig, .linkedin, .github {
+    margin-top: 2px;
     position: relative;
     bottom: 30px;
     max-width: 100%;
