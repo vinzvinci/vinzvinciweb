@@ -43,6 +43,14 @@
         </div>
     </nav>
 
+    <script>
+        $(window).scroll(function() {
+            var offset = $(window).scrollTop();
+            console.log(offset);
+            $('.navbar').toggleClass('trans', offset > 50);
+        });
+    </script>
+
     <header>
         <div id="slides" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
@@ -186,7 +194,7 @@
     </div>
     </section>
 
-    <section id="about">
+    <div id="about">
     <div class="about">
         <div class="container-fluid padding">
             <div class="row welcome text-center">

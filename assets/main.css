@@ -102,6 +102,11 @@ nav ul li a{
 nav ul li a:hover {
     color: aqua !important;
 }
+.navbar.trans {
+    background: transparent;
+    padding: 0;
+}
+
 .carousel-caption {
     position: absolute;
     top: 50%;
@@ -180,9 +185,7 @@ nav ul li a:hover {
     position: relative;
     bottom: 30px;
 }
-
 .team {
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
