@@ -7,4 +7,4 @@
 <br />
 
 ## Copyright and License
-Copyright (c) 2020 Vincent Villafuerte released under the <a href="https://github.com/vinzvinci98/vinzvinci98.github.io/blob/master/LICENSE">MIT licence</a>
+Copyright (c) 2020 Vincent Villafuerte released under the <a href="https://github.com/vinzvinci98/vinzvinci98.github.io/blob/master/LICENSE">MIT</a> license
