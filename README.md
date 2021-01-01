@@ -1,6 +1,6 @@
 
 ## Preview
-<img src="https://user-images.githubusercontent.com/73097560/102230913-61facc00-3f28-11eb-91cc-ff240f23e049.png">
+<img src="https://user-images.githubusercontent.com/73097560/103435454-aafd9080-4c49-11eb-8aa7-9358aafc22c1.png">
 
 <a href="https://vinzvinci98.github.io/" target="blank">Live View</a>
 
