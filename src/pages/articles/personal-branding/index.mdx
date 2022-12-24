@@ -1,4 +1,6 @@
 import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import personalphoto from './personal-branding-image.webp'
 
 export const meta = {
   author: 'Vincent Villafuerte',
@@ -9,6 +11,8 @@ export const meta = {
 }
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
+
+<Image src={personalphoto} alt="" />
 
 My room is just less average than the rest, I don't have a cool background or dazzling furniture for you to see behind me as other people have, lols, but the SWAG helps brighten and fill the gaps in my empty room. In the same way this is how my personal brand helped me to get a job and still receive job offers from other companies. 
 
