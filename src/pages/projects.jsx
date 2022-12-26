@@ -13,37 +13,16 @@ const projects = [
   {
     name: 'WebX DAO',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'We focus on building and talking about possible future usage of web technologies.',
+    link: { href: 'https://github.com/WebXDAO', label: 'github.com/WebXDAO' },
     logo: logoPlanetaria,
   },
   {
     name: 'SurPath Hub',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+      'Inclusive Open Source Community for Filipino student ',
+    link: { href: 'https://github.com/SurPathHub', label: 'github.com/SurPathHub' },
     logo: logoAnimaginary,
-  },
-  {
-    name: 'HelioStream', 
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
   },
 ]
 
@@ -62,7 +41,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Vincent Villafuerte | Projects</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."
