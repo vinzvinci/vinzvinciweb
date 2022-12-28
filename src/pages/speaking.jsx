@@ -29,54 +29,68 @@ export default function Speaking() {
   return (
     <>
       <Head>
-        <title>Speaking - Spencer Sharp</title>
+        <title>Vincent Villafuerte | Events</title>
         <meta
           name="description"
-          content="I’ve spoken at events all around the world and been interviewed for many podcasts."
+          content="I’ve spoken at events in my local community and been invited to some event talks."
         />
       </Head>
       <SimpleLayout
-        title="I’ve spoken at events all around the world and been interviewed for many podcasts."
-        intro="One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing, and I love podcast interviews because they give me the opportunity to answer questions instead of just present my opinions."
+        title="I’ve spoken at events in my local community and been invited to some event talks."
+        intro="Speaking at events is a great way to share your knowledge and meet new people. I’ve spoken at events in my local community and been invited to some event talks"
       >
         <div className="space-y-20">
-          <SpeakingSection title="Conferences">
+          <SpeakingSection title="2022 Highlights">
             <Appearance
-              href="#"
-              title="In space, no one can watch you stream — until now"
-              description="A technical deep-dive into HelioStream, the real-time streaming library I wrote for transmitting live video back to Earth."
-              event="SysConf 2021"
+              href="https://www.linkedin.com/feed/update/urn:li:activity:6995267654177497088/"
+              title="Getting Started on Open Source with Git and GitHub"
+              description="Samsung R&D Philippines invites me to Samsung Open Source Conference Philippines with the theme Bukás Para sa Bukas to be held online on 26th November 2022. It is a conference aiming to increase awareness on and appreciate for open source software in the Philippines."
+              event="Samsung Open Source Conference Philippines"
+              cta="Link"
+            />
+            <Appearance
+              href="https://fb.watch/hGdDFjT0uO/"
+              title="Head & Organizer of GitHub Field Day Philippines"
+              description="I bring the unconference event for leaders of technical student communities in the Philippines. GitHub Field Day Philippines brings together a group of student leaders for a day of conversation in the form of lightning talks, discussions, games, or whatever suits the topic best."
+              event="GitHub Field Day Philippines"
               cta="Watch video"
             />
             <Appearance
               href="#"
-              title="Lessons learned from our first product recall"
-              description="They say that if you’re not embarassed by your first version, you’re doing it wrong. Well when you’re selling DIY space shuttle kits it turns out it’s a bit more complicated."
-              event="Business of Startups 2020"
-              cta="Watch video"
+              title="Hacktoberfest 2022 at my Campus"
+              description=""
+              event="DFCAMCLP Hacktoberfest 2022"
+              cta="Will update soon"
             />
           </SpeakingSection>
-          <SpeakingSection title="Podcasts">
-            <Appearance
+          <SpeakingSection title="2021 Highlights">
+          <Appearance
               href="#"
-              title="Using design as a competitive advantage"
-              description="How we used world-class visual design to attract a great team, win over customers, and get more press for Planetaria."
-              event="Encoding Design, July 2022"
-              cta="Listen to podcast"
+              title="GitHub For Students"
+              description=""
+              event="MSC Talks (TIP Manila)"
+              cta="Will update soon"
             />
             <Appearance
               href="#"
-              title="Bootstrapping an aerospace company to $17M ARR"
-              description="The story of how we built one of the most promising space startups in the world without taking any capital from investors."
-              event="The Escape Velocity Show, March 2022"
-              cta="Listen to podcast"
+              title="Hacktoberfest Philippines 2021"
+              description=""
+              event="SurPath Hub Hacktoberfest 2021"
+              cta="Will update soon"
             />
             <Appearance
               href="#"
-              title="Programming your company operating system"
-              description="On the importance of creating systems and processes for running your business so that everyone on the team knows how to make the right decision no matter the situation."
-              event="How They Work Radio, September 2021"
-              cta="Listen to podcast"
+              title="#100 Days Of Code"
+              description=""
+              event="SurPath Hub #100DaysOfCode 2021"
+              cta="Will update soon"
+            />
+            <Appearance
+              href="#"
+              title="Using Git & GitHub to launch your professional career"
+              description=""
+              event="Random Viewer at Microsoft Teams"
+              cta="Will update soon"
             />
           </SpeakingSection>
         </div>
