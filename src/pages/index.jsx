@@ -208,7 +208,7 @@ function Resume() {
         ))}
       </ol>
       <Button href="./Villafuerte_Vincent_A_Resume.pdf" variant="secondary" className="group mt-6 w-full">
-        Download CV
+        Download Resume
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
     </div>
@@ -257,12 +257,13 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Open Source Advocate, GitHubber, and DevRel.
+            Open Source Advocate and Developer Community Specialist
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          Hi, I’m Vincent, an Octocat-loving developer community enthusiast based in the Philippines.
-          As the founder of WebX DAO and SurPath Hub, I’m passionate about building technologies that empower people to explore space on their own terms. 
-          I’m always looking for new ways to interact with and advocate for the open source community.
+          Hi, I’m Vincent, a dedicated and experienced GitHub Field Expert and Open Source Advocate. 
+          My passion lies in building strong relationships within the developer community, and 
+          I am the proud founder of both WebX DAO and SurPath Hub, two open-source communities aimed
+          at promoting the widespread use and accessibility of open source technology.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
