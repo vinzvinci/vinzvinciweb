@@ -16,7 +16,6 @@ import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
 import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
@@ -207,7 +206,7 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="./Villafuerte-Vincent_Resume.pdf" variant="secondary" className="group mt-6 w-full">
+      <Button href="./Villafuerte-Jiraphinya_Resume.pdf" variant="secondary" className="group mt-6 w-full">
         Download Resume
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -221,7 +220,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {[image1, image2, image3, image4, ].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
@@ -247,23 +246,20 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Vincent Villafuerte | Home
+        jiraphinya Wechabut | Home
         </title>
         <meta
           name="description"
-          content=" Hi, I'm Vincent, an Octocat-loving developer community enthusiast based in the Philippines."
+          content=" Hi, I'm jiraphinya, an Octocat-loving developer community enthusiast based in the Thailand."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Open Source Advocate and Developer Community Specialist
+          ผู้สนับสนุนและนักพัฒนาด้านชุมชน โอเพ่นซอร์ส
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          Hi, I’m Vincent, a dedicated and experienced GitHub Field Expert and Open Source Advocate. 
-          My passion lies in building strong relationships within the developer community, and 
-          I am the proud founder of both WebX DAO and SurPath Hub, two open-source communities aimed
-          at promoting the widespread use and accessibility of open source technology.
+          สวัสดี ฉันชื่อ จิรภิญญา เวชบุตร ผู้สนับสนุนโอเพ่นซอร์ส ความหลงใหลของฉันอยู่ที่การสร้างความสัมพันธ์ที่แน่นแฟ้นภายในชุมชนนักพัฒนา My&My daddy เป็นผู้ก่อตั้ง BLAZEWEB BY TH  อย่างภาคภูมิใจ พื้นที่แห่งนั้น มุ่งส่งเสริมการใช้งานอย่างแพร่หลายและการเข้าถึงเทคโนโลยีโอเพ่นซอร์ส
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

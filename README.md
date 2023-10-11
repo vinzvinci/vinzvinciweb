@@ -2,7 +2,7 @@
 
 I've been using Spotlight [Tailwind UI](https://tailwindui.com) site template, built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
-![image](https://user-images.githubusercontent.com/73097560/220655418-fad72459-cad0-4d32-a5be-77fd12ec280e.png)
+![image](https://res.cloudinary.com/mintmu/image/upload/v1697060069/1_gf7uul.png)
 
 ## Getting started
 
