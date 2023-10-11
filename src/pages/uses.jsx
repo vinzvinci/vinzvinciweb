@@ -29,32 +29,36 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Vincent Villafuerte | Uses</title>
+        <title>jiraphinya Wechabut | Uses</title>
         <meta
           name="description"
           content="Software I use, gadgets I love, and other things I recommend."
         />
       </Head>
       <SimpleLayout
-        title="Software I use, gadgets I love, and other things I recommend."
-        intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+        title="ซอฟต์แวร์ที่ฉันใช้ อุปกรณ์ที่ฉันชอบ และสิ่งอื่นๆ ที่ฉันแนะนำ."
+        intro="ฉันถูกถามมากมาย เกี่ยวกับสิ่งที่ฉันใช้ในการสร้างซอฟต์แวร์ ให้ทำงานอย่างมีประสิทธิผล หรือว่าฉันคิดไปเอง ว่าตัวเองมีประสิทธิผลทั้งๆ ที่ฉันแค่ผัดวันประกันพรุ่งจริงๆ นี่คือสิ่งที่ฉันมี มันน้อยเกิน ดังนั้นอย่าเอาฉันไปเปรียบกับฮีโร่ บนยูทูป."
       >
         <div className="space-y-20">
-          <ToolsSection title="Workstation">
+          <ToolsSection title="Workstation-น้อยๆของฉัน">
             <Tool title="Desktop Computer">
-              I was using a Customize PC to run big applications and of course I consistently clean my computer twice a month.
+            ฉันใช้โปรแกรมปรับแต่ง PC เพื่อรันแอพพลิเคชั่นขนาดใหญ่ และแน่นอนว่าฉันทำความสะอาดคอมพิวเตอร์ อย่างสม่ำเสมอ ไวรัสยังเป็นสิ่งน่ากลัว ดังนั้นฉันไม่เก็บ บางอย่างไว้นานเกินไป เเละยินดีที่จะกด Delete .
             </Tool>
-            <ToolsSection title="Important Specs">
+            <ToolsSection title="ข้อมูลจำเพาะที่สำคัญ">
             <Tool>
-              - <b>Dual Monitor: </b>Acer and Samsung Odyssey CRG5 24inch 144hz<br/>
+              - <b>Dual Monitor: </b>จอภาพคู่: Acer และ Samsung 19 นิ้ว 144hz<br/>
               - <b>Keyboard: </b>Razer<br/>
-              - <b>Processor: </b>AMD Ryzen 3 3300X 4-Core Processor, 3800 Mhz<br/>
-              - <b>GPU: </b>AMD Radeon RX 5700 XT<br/>
+              - <b>Processor: </b>Intel® Core™2 Quad Q8400 แคช 4M, 2.66 GHz, 1333 MHz FSB<br/>
+              - <b>GPU: </b>nvidia geforce รุ่น ลบเลือน<br/>
               - <b>RAM: </b>16 GB<br/>
-              - <b>Storage: </b>500GB SSD and 1TB HDD<br/>
+              - <b>Storage:</b>พื้นที่เก็บข้อมูล: 250GB HDD + 500GB HDD<br/>
+              - <b>บางสิ่ง: </b> นอกจากคีย์บอร์ด ฉันคิดว่าอุปกรณ์รุ่นนี้ ผลิตช่วงที่ฉันเกิด<br/>
+              - <b>อย่างว่า: </b> นั้นละน่าละอาย หลายคนอาจโยนมันทิ้ง เพราะเก่าเเละเต่ามาก<br/>
+              - <b>เหตุผล: </b> เเต่ฉันพอใจเท่าที่มี จะดูเเลกันจนกว่าจะบูตไม่ติด<br/> 
+                    
             </Tool>
             </ToolsSection>
-            <Tool title="Laptop">
+            <Tool title="Laptop-ฉันเคยมี เเต่บางครั้ง..">
               I use <a href="https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/300-series/330-14ikb-type-81g2/downloads">Lenovo</a> (330-14IKB (Type 81G2) Laptop (ideapad)) when I’m at Cafe or taking vacation.
             </Tool>
             <ToolsSection title="Important Specs">
@@ -65,11 +69,11 @@ export default function Uses() {
               - <b>Storage: </b>500GB SSD<br/>
             </Tool>
             </ToolsSection>
-            <Tool title="Redmi Note 11 Pro">
+            <Tool title="Redmi เเละ IPhone ในบางครั้ง">
               High specs for taking pictures and video recording. I use this for my personal use.
             </Tool>
           </ToolsSection>
-          <ToolsSection title="Development tools">
+          <ToolsSection title="เครื่องมือในการพัฒนา">
             <Tool title="Visual Studio Code">
               Most of the time, I use visual studio code for development.
             </Tool>
@@ -82,10 +86,10 @@ export default function Uses() {
           </ToolsSection>
           <ToolsSection title="Design">
             <Tool title="Figma">
-              I use Figma for my design projects. I love the simplicity of the UI and the features.
+              ฉันใช้ Figma สำหรับโครงการออกแบบของฉัน ฉันชอบความเรียบง่ายของ UI และฟีเจอร์ต่างๆ.
             </Tool>
             <Tool title="Canva">
-              I use Canva for random design. I also use this for my personal use.
+            ฉันใช้ Canva เพื่อการออกแบบบางสิ่ง เราได้ฟังก์ชั่นบางอย่างเพิ่มเติม เพราะพ่อฉันเคยสอนหนังสือ ฉันยังใช้สิ่งนี้เพื่อการใช้งานส่วนตัวของฉันด้วย.
             </Tool>
             <Tool title="DaVinci Resolved">
               I use DaVinci Resolved for my video editing projects.

@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Vincent Villafuerte | About</title>
+        <title>jiraphinya Wechabut | About</title>
         <meta
           name="description"
-          content="I’m Vincent Villafuerte also known as vinzvinci. I live in Las Piñas City, Philippines, where I design the future."
+          content="I’m jiraphinya Wechabut also known as tam. I live in Udon Thani City, Thailand, where I design the future."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,47 +61,43 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Vincent Villafuerte also known as vinzvinci.
+              I’m jiraphinya Wechabut also known as Mint.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
                 Hey there 👋
               </p>
               <p>
-                My name is Vincent Villafuerte, but you can call me vinz for short. I am a passionate and dedicated college student who is on the verge 
-                of graduating with a Bachelor’s degree in Information Systems. As an avid Octocat lover and OSS Advocate, I am constantly seeking ways to
-                engage with the developer community and learn from their experiences.
+              ฉันชื่อจิรภิญญา เวชบุตร แต่เรียกสั้นๆ มิ้นก็ได้ ฉันเป็นนักศึกษาฟรีเเลนซ์ที่มีความกระตือรือร้นและทุ่มเท มุ่งมั่นจะศึกษา Software developer ในฐานะผู้ชื่นชอบ -VALORANT&Free Fire- ตัวยงและผู้สนับสนุน OSS ฉันค้นหาวิธีมีส่วนร่วมกับชุมชนนักพัฒนาและเรียนรู้จากประสบการณ์  ฮีโร่ของฉัน อยู่ตลอดเวลา
               </p>
               <p>
-                Technology has become a central part of my daily life, and I am passionate about the open-source community and the ways in which it 
-                promotes communication and collaboration. I am grateful to have found my love for coding at an early age and to have had the opportunity 
-                to mentor other students and make connections with people in the tech industry around the world.
+              เทคโนโลยีกลายเป็นส่วนสำคัญในชีวิตประจำวันของฉัน และฉันหลงใหลในชุมชนโอเพ่นซอร์สและวิธีที่ชุมชนส่งเสริมการสื่อสารและการทำงานร่วมกัน ฉันรู้สึกซาบซึ้งที่ได้พบรักในการเขียนโค้ดตั้งแต่อายุยังน้อย และได้มีโอกาสให้คำปรึกษากับนักเรียนคนอื่นๆ และเชื่อมโยงกับผู้คนในอุตสาหกรรมเทคโนโลยีทั่วโลก
               </p>
               <p>
-                Overall, I am grateful for the path I have chosen in the tech industry and am excited to see where it takes me in the future.
+              โดยรวมแล้ว ฉันรู้สึกขอบคุณสำหรับเส้นทางที่ฉันเลือกในอุตสาหกรรมเทคโนโลยี และรู้สึกตื่นเต้นที่จะได้เห็นเส้นทางของฉันในอนาคต
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="https://twitter.com/vinzvinci" icon={TwitterIcon}>
+              <SocialLink href="https://twitter.com/phongwut_w/" icon={TwitterIcon}>
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="https://www.instagram.com/vinzvinci/" icon={InstagramIcon} className="mt-4">
+              <SocialLink href="https://www.instagram.com/phongwut_w/" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="https://github.com/vinzvinci" icon={GitHubIcon} className="mt-4">
+              <SocialLink href="https://github.com/Bimint/" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="https://www.linkedin.com/in/vinzvinci/" icon={LinkedInIcon} className="mt-4">
+              <SocialLink href="https://www.linkedin.com/in/iprompt/" icon={LinkedInIcon} className="mt-4">
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:spencer@planetaria.tech"
+                href="mailto:0"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                info.vinzvinci@gmail.com
+                ถ้าจะโทร 084-0320193
               </SocialLink>
             </ul>
           </div>
